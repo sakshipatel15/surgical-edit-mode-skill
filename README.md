@@ -22,9 +22,11 @@ When you tag this skill, the AI is forced to follow a strict set of expert engin
 
 ## 🚀 How to Install
 
-You can easily install this skill globally on your machine (Mac, Linux, or Windows WSL) so it is available across all your projects.
+You can install this skill globally on any OS so it is available across all your projects. The script automatically detects your IDE and installs the skill for both **Cursor** and **Claude Code**.
 
-Open your terminal and run these commands one by one:
+### 🍎 Mac & 🐧 Linux
+
+Open your terminal and run:
 
 ```bash
 git clone https://github.com/sakshipatel15/cursor-surgical-edit-mode.git
@@ -33,9 +35,19 @@ chmod +x install.sh
 ./install.sh
 ```
 
-**That's it!** The script automatically detects your IDE and installs the skill for both **Cursor** and **Claude Code**.
+*(Optional flags: Run `./install.sh --cursor` or `./install.sh --claude`)*
 
-*(Optional flags: Run `./install.sh --cursor` if you only want it on Cursor, or `./install.sh --claude` for Claude).*
+### 🪟 Windows
+
+Open **Command Prompt** (cmd) and run:
+
+```bat
+git clone https://github.com/sakshipatel15/cursor-surgical-edit-mode.git
+cd cursor-surgical-edit-mode
+install.bat
+```
+
+*(Optional flags: Run `install.bat --cursor` or `install.bat --claude`)*
 
 ---
 
@@ -66,9 +78,17 @@ Using Surgical Edit Mode is incredibly simple.
 ## 🗑️ How to Uninstall
 
 If you ever need to remove the skill, simply delete the folder from your AI's global directory:
+
+**Mac/Linux:**
 ```bash
 rm -rf ~/.cursor/skills/surgical-edit-mode
 rm -rf ~/.claude/skills/surgical-edit-mode
+```
+
+**Windows (Command Prompt):**
+```bat
+rmdir /S /Q "%USERPROFILE%\.cursor\skills\surgical-edit-mode"
+rmdir /S /Q "%USERPROFILE%\.claude\skills\surgical-edit-mode"
 ```
 
 ---
