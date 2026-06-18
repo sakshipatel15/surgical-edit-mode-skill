@@ -29,8 +29,8 @@ You can install this skill globally on any OS so it is available across all your
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/sakshipatel15/cursor-surgical-edit-mode.git
-cd cursor-surgical-edit-mode
+git clone https://github.com/sakshipatel15/surgical-edit-mode-skill.git
+cd surgical-edit-mode-skill
 chmod +x install.sh
 ./install.sh
 ```
@@ -42,8 +42,8 @@ chmod +x install.sh
 Open **Command Prompt** (cmd) and run:
 
 ```bat
-git clone https://github.com/sakshipatel15/cursor-surgical-edit-mode.git
-cd cursor-surgical-edit-mode
+git clone https://github.com/sakshipatel15/surgical-edit-mode-skill.git
+cd surgical-edit-mode-skill
 install.bat
 ```
 
